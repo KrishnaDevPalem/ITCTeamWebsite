@@ -1,0 +1,153 @@
+/* Global Styles */
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #236794; /* Light blue-gray background */
+    color: #333; /* Dark gray text for better visibility */
+}
+
+a {
+    color: #007bff; /* Light blue link color for contrast */
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+
+header {
+    background-color: ; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007bff; /* Light blue logo for visibility */
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Dark gray text for better visibility */
+}
+
+/* Hero Section Styles */
+
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff; /* White text for better visibility */
+    text-align: center;
+    position: relative;
+}
+
+.hero-inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero .btn {
+    background-color: #007bff; /* Light blue button color for contrast */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Learn to Trade Section Styles */
+
+.learn-to-trade {
+    background-color: #d4d8db; /* Light blue-gray background */
+    padding: 50px 0;
+}
+
+.learn-to-trade h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -20px;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    background-color: coral; /* White card background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    max-height: 200px; /* Adjust the max-height as needed to fit your layout */
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.card .btn {
+    display: inline-block;
+    background-color: #007bff; /* Light blue button color for contrast */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #333; /* Dark gray background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
